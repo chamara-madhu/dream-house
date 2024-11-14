@@ -1,0 +1,31 @@
+.about-container h2 {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+
+.about-container p {
+  font-size: 1rem;
+  line-height: 1.5rem;
+}
+
+.intro,
+.mission,
+.who-we-are,
+.what-sets-us-apart,
+.services,
+.join-us {
+  margin-bottom: 20px;
+}
+
+.about-container ul {
+  list-style-type: disc;
+  padding-left: 20px;
+}
+
+.about-container ul li {
+  margin-bottom: 10px;
+  font-size: 1rem;
+  line-height: 1.5rem;
+}

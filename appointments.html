@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles/main.css" />
+    <link rel="stylesheet" href="./styles/appointment.css" />
+    <link rel="stylesheet" href="./styles/navbar.css" />
+    <link rel="stylesheet" href="./styles/footer.css" />
+
+    <title>Appointments</title>
+  </head>
+  <body>
+    <header class="navbar" id="navbar"></header>
+
+    <main>
+      <div class="main-container">
+        <h1 class="page-heading">Appointments</h1>
+        <div class="custom"></div>
+        <section>
+          <div style="overflow-x: auto">
+            <table class="appointment-table" border="1">
+              <thead>
+                <tr>
+                  <th>Name</th>
+                  <th>Contact number</th>
+                  <th>Appointment date</th>
+                  <th>Appointment time</th>
+                </tr>
+              </thead>
+              <tbody id="appointment-table-body"></tbody>
+            </table>
+          </div>
+        </section>
+      </div>
+    </main>
+
+    <div id="footer"></div>
+
+    <script src="../scripts/load_navbar_and_footer.js"></script>
+    <script src="../scripts/all_appointments.js"></script>
+  </body>
+</html>

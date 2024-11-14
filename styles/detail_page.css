@@ -1,0 +1,296 @@
+.property-details-container .go-back {
+  display: flex;
+  align-items: center;
+  font-size: 1.5rem;
+  gap: 15px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.property-details-container .go-back i {
+  color: var(--color-gray);
+}
+
+.property-details-container .go-back i:hover {
+  color: var(--color-dark-green);
+}
+
+.property-details-container .image-container {
+  display: flex;
+  gap: 1.25rem;
+  height: 400px;
+}
+
+.property-details-container .main-image {
+  flex: 1;
+  height: 100%;
+}
+
+.property-details-container .main-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.property-details-container .other-images {
+  display: grid;
+  grid-template-columns: 1fr 1fr; /* Two columns */
+  grid-template-rows: 1fr 1fr; /* Two rows */
+  gap: 1.25rem;
+  height: 100%;
+  flex: 1;
+}
+
+.property-details-container .other-images img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  overflow: hidden;
+  max-height: 100%;
+  max-width: 100%;
+  border-radius: 8px;
+}
+
+.property-details-container .content-container {
+  display: flex;
+  gap: 2rem;
+  margin-top: 1.75rem;
+}
+
+.property-details-container .content-container .content {
+  flex: 70%;
+}
+
+.property-details-container .content-container .content .header {
+  display: flex;
+  gap: 2rem;
+  align-items: flex-start;
+}
+
+.property-details-container .content-container .content .header .title {
+  font-weight: 800;
+  line-height: 2.25rem;
+  margin-bottom: 5px;
+}
+
+.property-details-container .content-container .content .header .type {
+  font-size: 0.875rem;
+  color: #4a4a4a;
+  background: #e8ffe0;
+  letter-spacing: 0.1em;
+  margin-top: 10px;
+  border-radius: 20px;
+  padding: 0.5rem 1rem;
+  width: fit-content;
+  font-weight: 700;
+}
+
+.property-details-container .content-container .content .address {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  font-size: 1rem;
+  color: var(--color-dark-gray);
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.property-details-container .content-container .content .main-features {
+  display: flex;
+  color: #5d5d5d;
+  gap: 20px 40px;
+  margin-top: 35px;
+  margin-bottom: 15px;
+  flex-wrap: wrap;
+}
+
+.property-details-container .content-container .content .main-features span {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.property-details-container .content-container .content .main-features span i {
+  color: #39861e;
+}
+
+.property-details-container .content-container .content .sub-title {
+  margin-top: 2.25rem;
+  margin-bottom: 1rem;
+  font-size: 1.5rem;
+  line-height: 2rem;
+}
+
+.property-details-container .content-container .features {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+}
+
+.property-details-container .content-container .features div {
+  background: var(--color-very-light-green);
+  padding: 0.5rem 1rem;
+  border-radius: 8px;
+  font-size: 1rem;
+  color: #121111;
+}
+
+.property-details-container .content-container .property-price {
+  font-size: 1.75rem;
+  font-weight: 800;
+  color: var(--color-dark-green);
+  margin-bottom: 15px;
+}
+
+.property-details-container .content-container .property-description {
+  font-size: 1rem;
+  line-height: 1.5rem;
+  text-align: justify;
+  color: var(--color-dark-gray);
+}
+
+.property-details-container .content-container .side-container {
+  flex: 30%;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.property-details-container .content-container .contact {
+  padding: 20px;
+  border-radius: 8px;
+  border: 1px solid var(--color-gray);
+  height: fit-content;
+}
+
+.property-details-container .content-container .video iframe {
+  border-radius: 8px;
+  width: 100%;
+  height: 240px;
+}
+
+.property-details-container .content-container .contact .title {
+  color: var(--color-dark-gray);
+  margin-bottom: 20px;
+}
+
+.property-details-container .content-container .contact .agent {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid var(--color-gray);
+  margin-top: 25px;
+}
+
+.property-details-container .content-container .contact hr {
+  border: 1px solid var(--color-light-gray);
+  margin-top: 25px;
+}
+
+.property-details-container .content-container .contact .agent .user {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: var(--color-very-light-green);
+  font-size: 1.1rem;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+.property-details-container .content-container .contact .agent .name {
+  color: #262626;
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+
+.property-details-container .content-container .contact .agent .phone {
+  font-size: 0.875rem;
+  color: var(--color-dark-gray);
+}
+
+.btn {
+  background: var(--color-green);
+  color: var(--color-white);
+  padding: 1rem;
+  font-size: 1rem;
+  border-radius: 8px;
+  border: 0;
+  width: 100%;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background: #276411;
+}
+
+.property-details-container .content-container .contact .btn {
+  margin-top: 25px;
+}
+
+.appointment-form-container h3 {
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+#appointment-form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+#appointment-form .btn {
+  margin-top: 10px;
+}
+
+.form-input-container {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+}
+
+.form-input-container label {
+  font-size: 0.875rem;
+  line-height: 1.5rem;
+}
+
+.form-input-container input {
+  height: 40px;
+  border-radius: 8px;
+  padding: 0 8px;
+  border: 1px solid var(--color-gray);
+}
+
+.success-msg {
+  color: var(--color-green);
+  margin-top: 15px;
+}
+
+@media (max-width: 1600px) {
+  .property-details-container {
+    max-width: 1280px;
+  }
+}
+
+@media (max-width: 768px) {
+  .property-details-container .content-container {
+    flex-direction: column;
+  }
+
+  .property-details-container .image-container {
+    flex-direction: column;
+  }
+
+  .property-details-container .image-container {
+    height: auto;
+  }
+
+  .property-details-container .other-images {
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: unset;
+  }
+}
