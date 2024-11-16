@@ -16,6 +16,24 @@ Dream House is a property management site built with HTML, CSS, and JavaScript.
 
 The project follows a structured folder layout for better organization:
 
+# Dream House
+
+## Overview
+
+Dream House is a property management site built with HTML, CSS, and JavaScript.
+
+## Pages
+
+- **Home**: Showing all the properties.
+- **About us**: Showing about us details.
+- **Contact us**: Showing company contact information.
+- **Detailed property page**: Showing all details of the selected property.
+- **Appointments**: Showing all appointments.
+
+## Folder Structure
+
+The project follows a structured folder layout for better organization:
+
 app/
 ├── assets/                             # Icons, Images, etc
     ├── icons/                          # Icon files
