@@ -68,4 +68,9 @@ function submitAppointment(e) {
 
   // Clear form after submission
   form.reset();
+
+  // Redirect to the appointments page after 3 seconds
+  setTimeout(() => {
+    window.location.href = "/appointments.html";
+  }, 3000);
 }

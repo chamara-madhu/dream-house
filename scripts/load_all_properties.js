@@ -26,7 +26,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 </span>
                 <span>
                   <i class="fa-solid fa-bath"></i>
-                  ${property.bedrooms}
+                  ${property.bathrooms}
                 </span>
                 <span>
                   <i class="fa-solid fa-house"></i>
