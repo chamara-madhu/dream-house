@@ -16,7 +16,7 @@ Dream House is a property management website built using HTML, CSS, and JavaScri
 
 The project follows a structured folder layout for better organization:
 
-````plaintext
+```plaintext
 app/
 ├── assets/                             # Icons, images, and other assets
 │   ├── icons/                          # Icon files
@@ -47,14 +47,17 @@ app/
 ├── property_details.html               # Detailed property page
 ├── appointments.html                   # Appointments page
 └── README.md                           # Project documentation
+```
 
 ## Run the Application
 
 To get started with Dream House, follow these steps:
 
 1. Clone the repository:
+
    ```bash
    git clone https://github.com/chamara-madhu/dream-house.git
 
+   ```
+
 2. Run the application using live server
-````
